@@ -9,7 +9,7 @@ trigger:
 pool:
   name: Default
   demands:
-   - agent.name -equals Default
+   - agent.name -equals agent-pool
 
 steps:
 - script: echo Hello, world!
