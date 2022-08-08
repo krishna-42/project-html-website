@@ -9,7 +9,7 @@ trigger:
 pool:
   name: Default
   demands:
-   - agent.name -equals agent-pool
+   - agent.name -equals ubuntu
 
 steps:
 - script: echo Hello, world!
